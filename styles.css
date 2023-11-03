@@ -7,7 +7,7 @@ body, img, button {
 }
 body {
     background-color: #fa5448;
-    transition: 1s linear;
+    transition: 0.1s linear;
 }
 .purp {
     background-color: #a25afa;
