@@ -52,5 +52,5 @@ function message() {
         document.getElementsByTagName("h1")[0].innerHTML = "Amethyst or Redstone";
         document.getElementsByTagName("img")[0].style.display = "block";
         document.getElementsByTagName("button")[0].style.display = "block";
-    }, timer+500);
+    }, timer+250);
 }
