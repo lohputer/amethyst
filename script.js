@@ -4,7 +4,7 @@ function swap() {
     document.getElementById("img").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1024px-HD_transparent_picture.png";
     setTimeout(()=>{
         document.getElementById("img").src = images[choice];
-        if (choice < 50) {
+        if (choice === 1) {
             document.body.style.backgroundColor = "#a25afa";
         } else {
             document.body.style.backgroundColor = "#fa5448";
