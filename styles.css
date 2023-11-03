@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+* {
+    display: block;
+    text-align: center;
+    margin: 5% auto;
+    font-family: 'Agbalumo', 'sans-serif';
+}
+body {
+    background-color: #fa5448;
+    transition: 1s linear;
+}
+.purp {
+    background-color: #a25afa;
+}
+img {
+    width: 40%;
+}
+button {
+    padding: 5%;
+    font-size: 2rem;
+    border: 10px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px black;
+}
