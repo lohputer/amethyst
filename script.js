@@ -13,7 +13,7 @@ function swap() {
             document.body.style.backgroundColor = "#a25afa";
         } else if (choice === 0) {
             document.body.style.backgroundColor = "#fa5448";
-        } else if (choice === 2) {
+        } else if (secondchoice !== 4 && choice === 2) {
             document.getElementById("img").src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1024px-HD_transparent_picture.png";
             document.body.style.backgroundColor = "white";
             document.getElementsByTagName("h1")[0].innerHTML = "ERROR ERROR ERROR";
@@ -25,10 +25,11 @@ function swap() {
                 document.getElementsByTagName("img")[0].style.transition = "4.5s linear";
             }, 100);
             setTimeout(()=>{
-                document.getElementsByTagName("button")[0].innerHTML = "ERROR";
+                document.getElementsByTagName("button")[0].style.display = "none";
             }, 1000)
             setTimeout(()=>{
                 document.getElementsByTagName("h1")[0].innerHTML = "Redstone or Amethyst";
+                document.getElementsByTagName("button")[0].style.display = "block";
                 document.getElementsByTagName("button")[0].innerHTML = "Click me :)";
                 document.getElementsByTagName("h1")[0].style.transition = "1s linear";
                 document.getElementsByTagName("img")[0].style.transform = "";
