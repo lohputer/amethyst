@@ -23,7 +23,7 @@ button {
     box-shadow: 5px 5px 5px black;
 }
 #small {
+    display: none;
     padding: 2.5%;
     font-size: 1rem;
-    display: none;
 }
